@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+      45deg,
+      rgba(234, 241, 245, 0.8),
+      rgba(244, 246, 247, 0.5)
+    ),
+    url(https://img.freepik.com/free-photo/clouds_69709-219.jpg?size=626&ext=jpg&ga=GA1.2.710789289.1654630818);
+  background-size: cover;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products__filters {
+  margin-right: 30px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+.products__item {
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(43, 25, 115, 0.9);
+  margin-bottom: 70px;
+}
+
+img {
+  max-width: 380px;
+}
+.products__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
